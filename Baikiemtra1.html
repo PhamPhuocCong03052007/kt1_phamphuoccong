@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<heal>
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+table {
+  border-spacing: 2px;
+}
+</style>
+<style>Bài kiểm tra của Phạm Phước Công</style>
+</heal>
+<body>
+ <form>
+  <table style="width:50%">
+ <tr>       
+    <th colspan="2">Đăng Ký</th> 
+  </tr>
+ <tr>
+    <td>Họ Tên</td>
+    <td> <input type="text" id="Name" placeholder="Nhập họ tên" name="Họ Tên" required></td>
+  </tr>
+ <tr>
+    <td>Username</td>
+    <td> <input type="text" id="Username" placeholder="Nhập tên Đăng nhập" name="Username" required></td>
+  </tr>
+ <tr>
+    <td>Mật Khẩu</td>
+    <td> <input type="text" id="password" placeholder="Nhập Mật khẩu" name="Mật Khẩu" required></td>
+  </tr>
+ <tr>
+    <td>Nhập lại Mật khẩu</td>
+    <td> <input type="text" id="Re-enter Password" placeholder="Nhập lại Mật khẩu" name="Nhập lại Mật khẩu" required></td>
+  </tr>
+ <tr>
+    <td>Giới Tính</td>
+    <td> <input type="radio" id="male" name="gender" value="Nam">
+        <label for="male">Nam</label>
+        <input type="radio" id="female" name="gender" value="Nữ">
+        <label for="female">Nữ</label>
+        <input type="radio" id="other" name="gender" value="Khác">
+        <label for="other">Khác</label>
+        </td>
+  </tr>
+ <tr>
+    <td>Ngày sinh</td>
+    <td><input type="date" id="dob" name="dob" required></td>
+  </tr>
+ <tr>
+    <td>Địa chỉ</td>
+    <td><textarea name="Địa chỉ" rows="4" placeholder="Nhập địa chỉ" required></textarea></td>
+    </tr>
+ <tr>
+    <td>Avatar</td>
+    <td><input type="file" id="File" name="Avatar"</td>
+  </tr>
+  <tr>
+    <td>Sở thích</td>
+    <td><input type="Checkbox" id="male" name="Interest" value="Xem Phim">
+        <label for="male">Xem Phim</label>
+        <input type="Checkbox" id="female" name="Interest" value="Thể Thao">
+        <label for="female">Thể Thao</label>
+        <input type="checkbox" id="other" name="Interest" value="Trò Chơi">
+        <label for="other">Trò Chơi</label>
+    </td>    
+  </tr>
+  </table>
+           <input type="reset" value="Reset">
+           <input type="submit" value="Ok">
+ </form>
+</body>
+</html>
